@@ -41,7 +41,7 @@ app.use(route.post('/wechat', wechat('your token', function *(msg) {
                 thumbMediaId: 'thisThumbMediaId'
             });
             break;
-        case '7':
+        default :
             this.reply([
                 {
                     title: '图文消息大图片',
@@ -50,10 +50,10 @@ app.use(route.post('/wechat', wechat('your token', function *(msg) {
                     url: 'http://baidu.com'
                 },
                 {
-                    Title: '图文消息小图片',
-                    Description: '支付宝钱包',
-                    PicUrl: 'http://a166.phobos.apple.com/us/r30/Purple5/v4/43/e8/ad/43e8ad87-6963-5e46-2a02-9f72648ec767/AppIcon57x57.png',
-                    Url: 'https://itunes.apple.com/cn/app/zhi-fu-bao-qian-bao-zhifubao/id333206289?mt=8'
+                    title: '图文消息小图片',
+                    description: '支付宝钱包',
+                    picUrl: 'http://a166.phobos.apple.com/us/r30/Purple5/v4/43/e8/ad/43e8ad87-6963-5e46-2a02-9f72648ec767/AppIcon57x57.png',
+                    url: 'https://itunes.apple.com/cn/app/zhi-fu-bao-qian-bao-zhifubao/id333206289?mt=8'
                 }
             ]);
             break;

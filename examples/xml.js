@@ -28,5 +28,5 @@ co(function *() {
         ]
     };
 
-    console.log(yield* xml.build(msg));
+    console.log(xml.build(msg));
 });
