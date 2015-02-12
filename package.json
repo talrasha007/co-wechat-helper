@@ -1,0 +1,15 @@
+{
+  "name": "co-wechat",
+  "version": "0.0.1",
+  "repository": "https://github.com/talrasha007/co-wechat.git",
+  "description": "co-style wechat api.",
+  "readme": "README.md",
+  "dependencies": {
+    "codash": "0.0.2",
+    "raw-body": "~1.3.3",
+    "xml2js": "^0.4.5"
+  },
+  "devDependencies": {
+    "co": "^4.3.1"
+  }
+}
