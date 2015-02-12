@@ -9,7 +9,7 @@ var koa = require('koa'),
     wechat = require('co-wechat-helper');
 
 var app = koa();
-app.use(route.post('/wechat', wechat('you token', function *(msg) {
+app.use(route.post('/wechat', wechat('your token', function *(msg) {
     switch (msg.Content) {
         case '1':
             this.reply('文字消息');
