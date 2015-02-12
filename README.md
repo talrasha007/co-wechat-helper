@@ -6,7 +6,7 @@
 ```js
 var koa = require('koa'),
     route = require('koa-route'),
-    wechat = require('../');
+    wechat = require('co-wechat-helper');
 
 var app = koa();
 app.use(route.post('/wechat', wechat('you token', function *(msg) {
