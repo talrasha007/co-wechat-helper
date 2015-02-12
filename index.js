@@ -1,2 +1,2 @@
 
-exports.xml = require('./lib/xml.js');
+module.exports = require('./lib/midleware.js');
