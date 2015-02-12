@@ -1,9 +1,3 @@
-# co-wechat-helper
-[co](https://www.npmjs.com/package/co)-style wechat api. If you are a wechat developer and do not understand Chinese, please let me know, i'll write english doc then. :)
-[co](https://www.npmjs.com/package/co)风格的微信api，请参考[微信公众号API文档](http://mp.weixin.qq.com/wiki/home/index.html)。
-
-## koa消息接口
-```js
 var koa = require('koa'),
     route = require('koa-route'),
     wechat = require('../');
@@ -69,4 +63,3 @@ app.use(route.post('/wechat', wechat('you token', function *(msg) {
 var port = 10010;
 console.log('Test server listening on', port);
 app.listen(port);
-```
