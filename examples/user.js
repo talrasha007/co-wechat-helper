@@ -4,6 +4,7 @@ var co = require('co'),
 co(function *() {
     var accessToken = yield* api.getAccessToken();
     console.log(accessToken);
+    console.log(yield* api.user.list());
     console.log(yield* api.user.getInfo('open id'));
 }).catch(function (err) {
     console.log(err.stack || err);
