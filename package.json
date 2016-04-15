@@ -1,12 +1,12 @@
 {
   "name": "co-wechat-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/talrasha007/co-wechat-helper.git",
   "description": "co-style wechat api.",
   "readmeFile": "README.md",
   "dependencies": {
     "co-request": "^0.2.0",
-    "codash": "~0.0.2",
+    "co-lodash": "~0.0.2",
     "hash-util": "^0.1.0",
     "raw-body": "~1.3.3",
     "sha1": "^1.1.0",
